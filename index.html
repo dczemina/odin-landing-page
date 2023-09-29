@@ -9,15 +9,17 @@
 <body>
     <head>
         <nav>
-            <div>Header Logo</div>
-            <ul>
-                <li><a href="">header link one</a></li>
-                <li><a href="">header link two</a></li>
-                <li><a href="">header link three</a></li>
-            </ul>
+            <div class="flex-row flex-end">
+                <div class="flex-margin">Header Logo</div>
+                <ul class="flex-row flex-between">
+                    <li><a href="">header link one</a></li>
+                    <li><a href="">header link two</a></li>
+                    <li><a href="">header link three</a></li>
+                </ul>
+            </div>
         </nav>
-        <div>
-            <div>
+        <div class="flex-row flex-between">
+            <div class="flex-column flex-between">
                 <h1>Hero Text</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin sagittis nisl rhoncus mattis. Pharetra massa massa ultricies mi quis hendrerit dolor. Hac habitasse platea dictumst quisque sagittis purus sit. Magna fringilla urna porttitor rhoncus dolor. Curabitur vitae nunc sed velit dignissim sodales. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Egestas sed sed risus pretium quam. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mattis molestie a iaculis at erat pellentesque. Faucibus et molestie ac feugiat.</p>
                 <button>Sign up</button>
@@ -29,39 +31,47 @@
     </head>
     <main>
         <section>
-            <div>
+            <div class="flex-column flex-around">
                 <h2>Information Section</h2>
                 <div>
-                    <ul>
+                    <ul class="flex-row flex-between">
                         <li>
-                            <div>
+                            <div class="flex-column flex-center">
                                 <img src="https://placehold.co/125x125.png" alt="Grey box with 125 x 125 written inside of it" style="width: 125px; height: 125px;"/>
+                                <p>Caption</p>
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="flex-column flex-center">
                                 <img src="https://placehold.co/125x125.png" alt="Grey box with 125 x 125 written inside of it" style="width: 125px; height: 125px;"/>
+                                <p>Caption</p>
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="flex-column flex-center">
                                 <img src="https://placehold.co/125x125.png" alt="Grey box with 125 x 125 written inside of it" style="width: 125px; height: 125px;"/>
+                                <p>Caption</p>
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="flex-column flex-center">
                                 <img src="https://placehold.co/125x125.png" alt="Grey box with 125 x 125 written inside of it" style="width: 125px; height: 125px;"/>
+                                <p>Caption</p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue eget arcu dictum varius duis. Nec dui nunc mattis enim ut tellus elementum sagittis.</p>
-            <p>Person's Name Placeholder</p>
         <section>
-            <div>
-                <div>
+            <div class="flex-column flex-between">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue eget arcu dictum varius duis. Nec dui nunc mattis enim ut tellus elementum sagittis.</p>
+                <p>Person's Name Placeholder</p>
+            </div>
+        </section>
+        <section>
+            <div class="flex-row flex-around">
+                <div class="flex-column flex-center">
                     <h3>Call to action header</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue eget arcu dictum varius duis.</p>
                 </div>
@@ -70,7 +80,7 @@
         </section>
     </main>
     <footer>
-        <div>
+        <div class="flex-row flex-center">
             Footer information
         </div>
     </footer>
