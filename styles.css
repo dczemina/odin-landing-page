@@ -148,3 +148,16 @@ a:visited {
     font-size: 1.5rem;
     font-style: italic;
 }
+
+/* Other Aesthetics */
+.rounded {
+    border-radius: 12px;
+}
+
+.rounded.dark-red {
+    border: 2px solid rgb(120, 55, 55)
+}
+
+.rounded.light-red {
+    border:2px solid rgb(200, 95, 95)
+}
