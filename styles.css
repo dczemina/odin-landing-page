@@ -12,6 +12,14 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 /* Flex and Flex Directions */
 .flex-row, .flex-column {
     display: flex;
@@ -116,4 +124,8 @@ ul {
 
 .light-red {
     color:rgb(200, 95, 95)
+}
+
+.gold {
+    color: rgb(243, 221, 99)
 }
