@@ -47,3 +47,21 @@ ul {
 .flex-row.flex-start > .flex-margin, .flex-column.flex-start > .flex-margin {
     margin-left: auto;
 }
+
+/* Flex Styling Resets */
+.flex-row h1,
+.flex-row h2,
+.flex-row h3,
+.flex-row p,
+.flex-column h1,
+.flex-column h2,
+.flex-column h3,
+.flex-column p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Spacing */
+.section-padding {
+    padding: 24px 128px 24px 128px;
+}
