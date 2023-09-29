@@ -1,4 +1,8 @@
 /* Globals and Resets */
+html {
+    font-family: 'Roboto', 'Arial', 'Helvetica', 'Verdana', sans-serif;
+}
+
 ul {
     list-style: none;
 }
