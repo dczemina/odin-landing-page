@@ -3,6 +3,11 @@ html {
     font-family: 'Roboto', 'Arial', 'Helvetica', 'Verdana', sans-serif;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 ul {
     list-style: none;
 }
@@ -43,6 +48,11 @@ ul {
     justify-content: center;
 }
 
+/* Align Self */
+.flex-self-end {
+    align-self: end;
+}
+
 /* Flex Item Auto Margins */
 .flex-row.flex-end > .flex-margin, .flex-column.flex-end > .flex-margin {
     margin-right: auto;
@@ -68,4 +78,42 @@ ul {
 /* Spacing */
 .section-padding {
     padding: 24px 128px 24px 128px;
+}
+
+.quote-padding {
+    padding: 24px;
+}
+
+/* Coloring */
+
+.bg-dark {
+    background-color: rgb(24, 24, 24);
+}
+
+.dark {
+    color: rgb(24, 24, 24)
+}
+
+.bg-less-dark {
+    background-color: rgb(40, 40, 40);
+}
+
+.bg-light {
+    background-color:rgb(200, 200, 200)
+}
+
+.light {
+    color: rgb( 200, 200, 200)
+}
+
+.bg-mid {
+    background-color:rgb(160, 160, 160)
+}
+
+.dark-red {
+    color:rgb(120, 55, 55)
+}
+
+.light-red {
+    color:rgb(200, 95, 95)
 }
