@@ -20,6 +20,21 @@ a:visited {
     text-decoration: none;
 }
 
+/* Header */
+.logo, .logo-sub {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo-sub {
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
 /* Flex and Flex Directions */
 .flex-row, .flex-column {
     display: flex;
