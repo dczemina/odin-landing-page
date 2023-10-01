@@ -161,3 +161,10 @@ a:visited {
 .rounded.light-red {
     border:2px solid rgb(200, 95, 95)
 }
+
+/* Buttons */
+button {
+    border-radius: 8px;
+    border: 0px solid black;
+    padding: 0.5rem 1rem;
+}
