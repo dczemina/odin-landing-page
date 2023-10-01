@@ -50,6 +50,38 @@ a:visited {
     flex-direction: column;
 }
 
+@media screen and (max-width: 767px) {
+    .flex-row.flex-swap-md {
+        flex-direction: column;
+    }
+    .flex-column.flex-swap-md {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .flex-row.flex-swap-lg {
+        flex-direction: column;
+    }
+    .flex-column.flex-swap-md {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .flex-row.flex-swap-xl {
+        flex-direction: column;
+    }
+    .flex-column.flex-swap-md {
+        flex-direction: row;
+    }
+}
+
+/* Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /* Justify Content */
 .flex-end {
     justify-content: end;
@@ -81,6 +113,10 @@ a:visited {
     flex-shrink: 0;
 }
 
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
 /* Flex Item Auto Margins */
 .flex-row.flex-end > .flex-margin, .flex-column.flex-end > .flex-margin {
     margin-right: auto;
@@ -108,12 +144,38 @@ a:visited {
     padding: 24px 128px 24px 128px;
 }
 
-.section-margin {
-    margin: 24px 128px 24px 128px;
-}
-
 .quote-padding {
     padding: 48px 128px;
+}
+
+@media screen and (max-width: 767px) {
+    .section-padding {
+        padding: 8px 32px 8px 32px;
+    }
+
+    .quote-padding {
+        padding: 12px 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section-padding {
+        padding: 12px 64px 12px 64px;
+    }
+
+    .quote-padding {
+        padding: 24px 64px;
+    }
+}
+
+@media screen and (min-width: 1024) and (max-width: 1279px) {
+    .section-padding {
+        padding: 16px 96px 16px 96px;
+    }
+
+    .quote-padding {
+        padding: 36px 96px;
+    }
 }
 
 /* Coloring */
